@@ -15,6 +15,20 @@
           "date": "2021-01-19 16:00:00"
         }
       ]
+    },
+    {
+      "name": "LSP-pyls",
+      "description": "Convenience package for the Python Language Server",
+      "homepage": "https://github.com/sublimelsp/LSP-pyls",
+      "releases": [
+        {
+          "platforms": ["*"],
+          "sublime_text": ">=3154",
+          "version": "1.1.0",
+          "url": "https://github.com/sublimelsp/LSP-pyls/archive/1.1.0.zip",
+          "date": "2020-12-03 21:52:40"
+        }
+      ]
     }
   ],
   "dependencies": []
