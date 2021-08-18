@@ -20,7 +20,7 @@
         },
         {
             "author": "husanjun",
-            "name": "docphp",
+            "name": "DocPHPManualer",
             "description": "DocPHPManualer: Show PHP documentation in Sublime Text",
             "homepage": "https://github.com/husanjun/docphp",
             "releases": [
