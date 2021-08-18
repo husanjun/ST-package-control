@@ -3,10 +3,24 @@
     "packages": [
         {
             "author": "husanjun",
-            "name": "PHPManualer",
+            "name": "DocPHPManualer",
             "details": "https://github.com/husanjun/docphp",
             "homepage": "https://github.com/husanjun/docphp",
             "description": "DocPHPManualer: Show PHP documentation in Sublime Text",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "branch": "master"
+                }
+            ]
+        },
+        {
+            "author": "husanjun",
+            "name": "FileHeader",
+            "details": "https://github.com/husanjun/FileHeader",
+            "homepage": "https://github.com/husanjun/FileHeader",
+            "description": "A powerful file templating plugin for Sublime Text",
             "releases": [
                 {
                     "platforms": "*",
