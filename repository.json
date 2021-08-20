@@ -28,6 +28,20 @@
                     "branch": "master"
                 }
             ]
+        },
+        {
+            "author": "husanjun",
+            "name": "SublimeCompletion",
+            "details": "https://github.com/husanjun/sublime-completions",
+            "homepage": "https://github.com/husanjun/sublime-completions",
+            "description": "Some of the code snippet for sublime text",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "branch": "master"
+                }
+            ]
         }
     ],
     "includes": [
