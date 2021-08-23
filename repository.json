@@ -42,6 +42,20 @@
                     "branch": "master"
                 }
             ]
+        },
+        {
+            "author": "husanjun",
+            "name": "SublimeToolKit",
+            "details": "https://github.com/husanjun/sublime-toolkit",
+            "homepage": "https://github.com/husanjun/sublime-toolkit",
+            "description": "Small tools for sublime text",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "branch": "master"
+                }
+            ]
         }
     ],
     "includes": [
