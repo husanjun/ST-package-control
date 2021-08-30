@@ -30,7 +30,7 @@
             ]
         },
         {
-            "name": "SublimeCompletions",
+            "name": "ST-Completions",
             "details": "https://github.com/husanjun/sublime-completions",
             "homepage": "https://github.com/husanjun/sublime-completions",
             "description": "Some of the code snippet for sublime text",
@@ -44,10 +44,24 @@
             ]
         },
         {
-            "name": "SublimeToolKit",
+            "name": "ST-ToolKit",
             "details": "https://github.com/husanjun/sublime-toolkit",
             "homepage": "https://github.com/husanjun/sublime-toolkit",
             "description": "Small tools for sublime text",
+            "author": "husanjun",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "branch": "master"
+                }
+            ]
+        },
+        {
+            "name": "ST-BuildSystem",
+            "details": "https://github.com/husanjun/sublime-build-system",
+            "homepage": "https://github.com/husanjun/sublime-build-system",
+            "description": "Build system for sublime text",
             "author": "husanjun",
             "releases": [
                 {
