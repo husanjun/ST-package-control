@@ -2,10 +2,10 @@
     "schema_version": "3.0.0",
     "packages": [
         {
-            "name": "DocPHPManualer",
+            "name": "ST-PHPManualer",
             "details": "https://github.com/husanjun/docphp",
             "homepage": "https://github.com/husanjun/docphp",
-            "description": "DocPHPManualer: Show PHP documentation in Sublime Text",
+            "description": "ST-PHPManualer: Show PHP documentation in Sublime Text",
             "author": "husanjun",
             "releases": [
                 {
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "FileHeader",
+            "name": "ST-FileHeader",
             "details": "https://github.com/husanjun/FileHeader",
             "homepage": "https://github.com/husanjun/FileHeader",
             "description": "A powerful file templating plugin for Sublime Text",
