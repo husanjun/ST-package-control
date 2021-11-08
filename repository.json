@@ -73,7 +73,8 @@
         }
     ],
     "includes": [
-        "https://raw.fastgit.org/jfcherng-sublime/ST-my-package-control/master/repository.json"
+        "https://raw.fastgit.org/jfcherng-sublime/ST-my-package-control/master/repository.json",
+        "./extra.json"
     ],
     "dependencies": []
 }

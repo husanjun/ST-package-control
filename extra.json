@@ -1,0 +1,19 @@
+{
+    "schema_version": "3.0.0",
+    "packages": [
+        {
+            "name": "ST-LSP-html",
+            "details": "https://github.com/sublimelsp/LSP-html",
+            "homepage": "https://github.com/sublimelsp/LSP-html",
+            "description": "HTML support for Sublime's LSP plugin",
+            "author": "sublimelsp",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "tags": "1.2.4"
+                }
+            ]
+        }
+    ]
+}
