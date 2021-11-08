@@ -12,8 +12,8 @@
                     "platforms": "*",
                     "sublime_text": ">=3154",
                     "version": "1.0.0",
-                    "url": "https://download.fastgit.org/sublimelsp/LSP-html/archive/1.2.3.zip",
-                    "date": "2021-11-08 18:00:00"
+                    "url": "https://download.fastgit.org/sublimelsp/LSP-html/archive/1.2.0.zip",
+                    "date": "2021-11-08 19:00:00"
                 }
             ]
         },
