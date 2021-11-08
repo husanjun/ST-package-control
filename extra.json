@@ -14,6 +14,20 @@
                     "tags": "1.2.4"
                 }
             ]
+        },
+        {
+            "name": "ST-LSP-pyright",
+            "details": "https://github.com/sublimelsp/LSP-pyright",
+            "homepage": "https://github.com/sublimelsp/LSP-pyright",
+            "description": "Python support for Sublime's LSP plugin provided through microsoft/pyright.",
+            "author": "sublimelsp",
+            "releases": [
+                {
+                    "platforms": "*",
+                    "sublime_text": ">=3154",
+                    "tags": "1.1.93"
+                }
+            ]
         }
     ]
 }
