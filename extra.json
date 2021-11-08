@@ -12,7 +12,7 @@
                     "platforms": "*",
                     "sublime_text": ">=3154",
                     "version": "1.0.0",
-                    "url": "https://github.com/sublimelsp/LSP-html/archive/1.2.4.zip",
+                    "url": "https://download.fastgit.org/sublimelsp/LSP-html/archive/1.2.4.zip",
                     "date": "2021-11-08 00:00:00"
                 }
             ]
@@ -28,7 +28,7 @@
                     "platforms": "*",
                     "sublime_text": ">=3154",
                     "version": "1.0.0",
-                    "url": "https://github.com/sublimelsp/LSP-pyright/archive/1.1.93.zip",
+                    "url": "https://download.fastgit.org/sublimelsp/LSP-pyright/archive/1.1.93.zip",
                     "date": "2021-11-08 00:00:00"
                 }
             ]
