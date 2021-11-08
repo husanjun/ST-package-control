@@ -2,7 +2,7 @@
     "schema_version": "3.0.0",
     "packages": [
         {
-            "name": "ST-LSP-html",
+            "name": "LSP-html",
             "details": "https://github.com/sublimelsp/LSP-html",
             "homepage": "https://github.com/sublimelsp/LSP-html",
             "description": "HTML support for Sublime's LSP plugin",
@@ -18,7 +18,7 @@
             ]
         },
         {
-            "name": "ST-LSP-pyright",
+            "name": "LSP-pyright",
             "details": "https://github.com/sublimelsp/LSP-pyright",
             "homepage": "https://github.com/sublimelsp/LSP-pyright",
             "description": "Python support for Sublime's LSP plugin provided through microsoft/pyright.",
