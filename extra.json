@@ -11,7 +11,7 @@
                 {
                     "platforms": "*",
                     "sublime_text": ">=3154",
-                    "tags": true
+                    "tags": "1.2.4"
                 }
             ]
         }
