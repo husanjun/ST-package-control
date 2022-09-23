@@ -73,7 +73,6 @@
         }
     ],
     "includes": [
-        // "./extra.json",
         "https://ghproxy.com/https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
     ],
     "dependencies": []
