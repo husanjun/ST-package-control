@@ -73,8 +73,8 @@
         }
     ],
     "includes": [
-        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json",
-        "https://cdn.jsdelivr.net/gh/jfcherng-sublime/ST-my-package-control@master/repository.json"
+        "https://ghproxy.com/https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json",
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
     ],
     "dependencies": []
 }
