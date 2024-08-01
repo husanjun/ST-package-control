@@ -1,0 +1,8 @@
+{
+    "$schema": "sublime://packagecontrol.io/schemas/repository",
+    "schema_version": "3.0.0",
+    "packages": [],
+    "includes": [
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository-released.json"
+    ]
+}

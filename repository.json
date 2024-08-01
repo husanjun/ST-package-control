@@ -75,7 +75,6 @@
     ],
     "includes": [
         "./extra.json",
-        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json",
-        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository-released.json"
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
     ]
 }
