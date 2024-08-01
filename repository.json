@@ -1,18 +1,18 @@
 {
     "$schema": "sublime://packagecontrol.io/schemas/repository",
     "schema_version": "4.0.0",
-    "packages": [],
-    "libraries": [
+    "packages": [
         {
             "name": "ST-PHPManualer",
-            "issues": "https://github.com/husanjun/docphp",
+            "details": "https://github.com/husanjun/docphp",
             "homepage": "https://github.com/husanjun/docphp",
             "description": "ST-PHPManualer: Show PHP documentation in Sublime Text",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/docphp",
-                    "platforms": "*",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=3154",
                     "branch": "master"
                 }
@@ -20,14 +20,15 @@
         },
         {
             "name": "ST-FileHeader",
-            "issues": "https://github.com/husanjun/FileHeader",
+            "details": "https://github.com/husanjun/FileHeader",
             "homepage": "https://github.com/husanjun/FileHeader",
             "description": "A powerful file templating plugin for Sublime Text",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/FileHeader",
-                    "platforms": "*",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=3154",
                     "branch": "master"
                 }
@@ -35,14 +36,15 @@
         },
         {
             "name": "ST-Completions",
-            "issues": "https://github.com/husanjun/sublime-completions",
+            "details": "https://github.com/husanjun/sublime-completions",
             "homepage": "https://github.com/husanjun/sublime-completions",
             "description": "Some of the code snippet for sublime text",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/sublime-completions",
-                    "platforms": "*",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=3154",
                     "branch": "master"
                 }
@@ -50,14 +52,15 @@
         },
         {
             "name": "ST-ToolKit",
-            "issues": "https://github.com/husanjun/sublime-toolkit",
+            "details": "https://github.com/husanjun/sublime-toolkit",
             "homepage": "https://github.com/husanjun/sublime-toolkit",
             "description": "Small tools for sublime text",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/sublime-toolkit",
-                    "platforms": "*",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=3154",
                     "branch": "master"
                 }
@@ -65,14 +68,15 @@
         },
         {
             "name": "ST-BuildSystem",
-            "issues": "https://github.com/husanjun/sublime-build-system",
+            "details": "https://github.com/husanjun/sublime-build-system",
             "homepage": "https://github.com/husanjun/sublime-build-system",
             "description": "Build system for sublime text",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/sublime-build-system",
-                    "platforms": "*",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=3154",
                     "branch": "master"
                 }

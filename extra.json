@@ -1,21 +1,23 @@
 {
     "$schema": "sublime://packagecontrol.io/schemas/repository",
     "schema_version": "4.0.0",
-    "libraries": [
+    "packages": [
         {
             "name": "LSP-intelephense",
             "homepage": "https://github.com/husanjun/LSP-intelephense",
-            "issues": "https://github.com/husanjun/LSP-intelephense",
+            "details": "https://github.com/husanjun/LSP-intelephense",
             "description": "PHP support for Sublime's LSP plugin provided through intelephense.",
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/LSP-intelephense",
+                    "platforms": [
+                        "*"
+                    ],
                     "sublime_text": ">=4000",
                     "tags": true
                 }
             ]
         }
     ],
-    "packages": []
+    "libraries": []
 }
