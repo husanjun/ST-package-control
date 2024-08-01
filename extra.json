@@ -1,22 +1,6 @@
 {
-    "schema_version": "3.0.0",
+    "schema_version": "4.0.0",
     "packages": [
-        {
-            "name": "LSP-html",
-            "details": "https://github.com/sublimelsp/LSP-html",
-            "homepage": "https://github.com/sublimelsp/LSP-html",
-            "description": "HTML support for Sublime's LSP plugin",
-            "author": "sublimelsp",
-            "releases": [
-                {
-                    "platforms": "*",
-                    "sublime_text": ">=3154",
-                    "version": "1.2.0",
-                    "url": "https://ghproxy.com/https://github.com/sublimelsp/LSP-html/archive/1.2.0.zip",
-                    "date": "2021-11-08 19:00:00"
-                }
-            ]
-        },
         {
             "name": "LSP-intelephense",
             "details": "https://github.com/husanjun/LSP-intelephense",
