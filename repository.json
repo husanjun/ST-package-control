@@ -1,5 +1,6 @@
 {
-    "schema_version": "3.0.0",
+    "$schema": "sublime://packagecontrol.io/schemas/repository",
+    "schema_version": "4.0.0",
     "packages": [
         {
             "name": "ST-PHPManualer",
@@ -75,7 +76,8 @@
     "includes": [
         "./extra.json",
         "https://ghproxy.net/https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json",
-        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json",
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository-released.json"
     ],
     "dependencies": []
 }
