@@ -1,6 +1,6 @@
 {
     "$schema": "sublime://packagecontrol.io/schemas/repository",
-    "schema_version": "4.0.0",
+    "schema_version": "3.0.0",
     "packages": [
         {
             "name": "ST-PHPManualer",
@@ -82,5 +82,8 @@
                 }
             ]
         }
+    ],
+    "includes": [
+        "./extra.json"
     ]
 }
