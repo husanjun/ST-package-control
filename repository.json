@@ -26,7 +26,6 @@
             "author": "husanjun",
             "releases": [
                 {
-                    "base": "https://github.com/husanjun/FileHeader",
                     "platforms": [
                         "*"
                     ],
@@ -83,5 +82,9 @@
                 }
             ]
         }
+    ],
+    "includes": [
+        "./extra.json",
+        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
     ]
 }
