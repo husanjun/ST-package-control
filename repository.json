@@ -1,6 +1,6 @@
 {
     "$schema": "sublime://packagecontrol.io/schemas/repository",
-    "schema_version": "3.0.0",
+    "schema_version": "4.0.0",
     "packages": [
         {
             "name": "ST-PHPManualer",
@@ -14,7 +14,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": true
+                    "branch": "master"
                 }
             ]
         },
@@ -26,11 +26,12 @@
             "author": "husanjun",
             "releases": [
                 {
+                    "base": "https://github.com/husanjun/FileHeader",
                     "platforms": [
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": true
+                    "branch": "master"
                 }
             ]
         },
@@ -46,7 +47,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": true
+                    "branch": "master"
                 }
             ]
         },
@@ -62,7 +63,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": true
+                    "branch": "master"
                 }
             ]
         },
@@ -78,7 +79,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": true
+                    "branch": "master"
                 }
             ]
         }
