@@ -14,7 +14,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": "master"
+                    "branch": true
                 }
             ]
         },
@@ -30,7 +30,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": "master"
+                    "branch": true
                 }
             ]
         },
@@ -46,7 +46,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": "master"
+                    "branch": true
                 }
             ]
         },
@@ -62,7 +62,7 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": "master"
+                    "branch": true
                 }
             ]
         },
@@ -78,13 +78,9 @@
                         "*"
                     ],
                     "sublime_text": ">=3154",
-                    "branch": "master"
+                    "branch": true
                 }
             ]
         }
-    ],
-    "includes": [
-        "./extra.json",
-        "https://raw.githubusercontent.com/jfcherng-sublime/ST-my-package-control/master/repository.json"
     ]
 }
