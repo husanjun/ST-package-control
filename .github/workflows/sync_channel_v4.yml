@@ -1,0 +1,32 @@
+name: Sync channel_v4
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # 允许手动触发工作流
+
+jobs:
+  sync_channel_v4:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Fetch remote file
+        id: fetch-remote-file
+        run: |
+          # 下载远程文件
+          curl -o channel_v4.json -L "https://packagecontrol.github.io/channel/channel_v4.json"
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update channel_v4" || echo "No changes to commit"
+          
+      - name: 推送
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
