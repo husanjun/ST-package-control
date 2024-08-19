@@ -19,14 +19,14 @@ jobs:
           # 下载远程文件
           curl -o channel_v4.json -L "https://packagecontrol.github.io/channel/channel_v4.json"
 
-      - name: Commit and push changes
+      - name: Commit file
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Update channel_v4" || echo "No changes to commit"
           
-      - name: 推送
+      - name: push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
