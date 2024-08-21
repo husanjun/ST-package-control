@@ -2,8 +2,8 @@ name: Sync channel_v4
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: # 允许手动触发工作流
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # 允许手动触发工作流
 
 jobs:
   sync_channel_v4:
@@ -19,12 +19,14 @@ jobs:
           # 下载远程文件
           curl -o channel_v4.json -L "https://packagecontrol.github.io/channel/channel_v4.json"
 
-      - name: Commit and push changes
-        uses: stefanzonca/action-commit-push@v4
+      - name: Commit file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update channel_v4" || echo "No changes to commit"
+          
+      - name: push changes
+        uses: ad-m/github-push-action@master
         with:
-          message: "Update channel_v4"
-          branch: master
-          push-to-branch: master
-          commit-author-name: github-actions[bot]
-          commit-author-email: github-actions[bot]@users.noreply.github.com
-          force-push: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
